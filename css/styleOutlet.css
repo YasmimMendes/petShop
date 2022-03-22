@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+header, footer{
+    background-color: #F3F3F3;
+}
+
+header img{
+    margin-top: 10px;
+   /* margin-left: 20px; */
+}
+
+.navbar{
+    background: #F3F3F3;
+    padding: 1rem 8rem;
+    z-index: 1000;
+    height: 10px;
+}
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: #666565;
+    font-size: 1.1rem;
+    padding: 0 3rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a:active{
+    color: #E400B2;
+}
+
+.btn{
+    background: #B080E1;
+    font-weight: 600;
+    padding: 0.2rem 1rem;
+    border-radius: 30px;
+    border-color: #B080E1;
+}
+.btn:hover{
+    background-color: #E400B2;
+    border: none;
+}
+.tamanho{
+    margin-top: 15px;
+}
+
+.test{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-flex{
+    margin-top: 15px;
+    margin-right: 50px!important;
+}
+.logo{
+    margin-right: 30px!important;
+}
+
+.assi{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.meus{
+    margin-top: 30px; 
+    margin-left: 5px;
+}
+
+.car{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.bt-cad .btn-cadastro{
+    /* display: flex; */
+    margin-right: 5px;
+    /*margin-left: 30px; */
+    /* justify-content: left; */
+    background: #DFD9D9;
+    font-weight: 600;
+    padding: 2rem 1.5rem;
+    border: none;
+}
+.bt-cad .btn-cadastro:hover{
+    background: #B080E1;
+}
+.parte1{
+    color:#F93ACF; 
+    font-size:40px; 
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+.parte2{
+    color: #939393;
+    font-size: 30px;
+}
+
+
+
+/*main*/
+
+.filtro{
+
+align-items: flex-start;
+
+
+}
+.texto{
+    font-size: 20px;
+    color: #393737;
+    justify-content: center;
+}
+
+.corpo{
+    display: flex;
+}
+
+.quadros{
+    border: 0.1rem solid #e8e9ee;
+    border-radius: 25px;
+    text-align: center;
+    padding-bottom: 15%;
+    box-shadow: 5px 5px 5px #D3D3D3;
+}
+
+
+.produtos{
+    border: 0.1rem solid #e8e9ee;
+    box-shadow: 5px 5px 5px #D3D3D3;
+    border-radius: 25px;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.link-outlet{
+    text-decoration: none; 
+    font-size: 25px; 
+    color: #939393;
+}
+
+.quadro-outlet{
+    border: 0.1rem solid #e8e9ee;
+    box-shadow: 5px 5px 5px #D3D3D3;
+    border-radius: 25px;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    background-color: #B080E1;
+}
+
+.img-estrela{
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*footer*/
+body > footer{
+    background: #B080E1!important;
+    margin-top: 40px;
+}
+
+body > footer > ul.list-unstyled.list-inline.text-center.py-2 > li:nth-child(2) > a{
+    background: #E400B2;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    border: none;
+}
+body > footer > ul.list-unstyled.list-inline.text-center.py-2 > li:nth-child(2) > a:hover{
+    background-color: #8204FF;
+}
+.page-footer font-small stylish-color-dark pt-4 text-light{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 988px){
+    .navbar{
+        padding: 1rem;
+    }
+    #navbarSupportedContent > ul{
+        padding-left: 0.8rem;
+    }
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+        padding: 0.8rem 0;
+    }
+    .mid .hero h2{
+        font-size: 2.5rem;
+    }
+    .mid .hero p{
+        font-size: 1rem;
+    }
+    .mid .hero a{
+        font-size: 0.9rem;
+    }
+}
+a{
+    text-decoration: none;
+}
